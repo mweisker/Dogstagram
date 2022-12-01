@@ -59,7 +59,9 @@ $(document).ready(function(){
             likeDiv.classList.add('like-div');
 
             const like = document.createElement('i');
-            like.classList.add('fa-solid', 'fa-heart')
+            like.classList.add('fa-solid', 'fa-heart');
+            like..appendChild(document.createTextNode(❤️);
+            
 
 
             const likes = document.createElement('p');
