@@ -1,0 +1,65 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Instagram Login</title>
+  <link rel="stylesheet" type="text/css" href="dogstagram.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script defer type='text/javascript' src='index.js'></script>
+  <script src="https://kit.fontawesome.com/2fd27c92b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<!-- CODE HERE-->
+
+  <main id="main-holder">
+    <div class="login-square">
+      <div class="header">
+        <p class="title">
+          Dogstagram
+        </p>
+      </div>
+      <div class="login-info" id="username-info">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username-field" class="login-form-field">
+      </div>
+      <div class="login-info" id="password-info">
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password-field" class="login-form-field">
+      </div>
+      <div class="login-info bottom-row">
+        <a href="#" id="forgot-password">Forgot your password?</a>
+        <input type="submit" value="Login" id="login-form-submit">
+      </div>
+      <div id="error-box">
+        <p class="error-message">Invalid username and/or password</p>
+      </div>
+    </div>
+    <div class="app-info">
+      <p class="bold">Need an account?</p>
+      <p>Download the app to sign up.</p>
+      <button class="app-store app-button">
+        <div class="app-store-info info">
+          <i class="fa-brands fa-apple"></i>
+          <p class="app-store-start start">Download on the</p>
+          <p class="app-store-end end">AppStore</p>
+        </div>
+      </button>
+      <button class="google-play app-button">
+        <div class="google-play-info info">
+          <i class="empty-space"></i>
+          <p class="google-play-start start">GET IT ON</p>
+          <i class="fa-brands fa-google-play"></i>
+          <p class="google-play-end end"><strong>Google</strong> play</p>
+        </div>
+      </button>
+    </div>
+  </main>
+
+
+
+
+
+
+
+</body>
+</html>
