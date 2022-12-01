@@ -60,7 +60,7 @@ $(document).ready(function(){
 
             const like = document.createElement('i');
             like.classList.add('fa-solid', 'fa-heart');
-            like..appendChild(document.createTextNode("❤️");
+            like.appendChild(document.createTextNode("❤️");
             
 
 
