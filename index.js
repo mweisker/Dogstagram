@@ -49,7 +49,7 @@ loginButton.addEventListener("click", (e) => {
           
             alert("this button works");
 
-            window.location.href = "google.com"
+            window.location.href = "feed.html"
             return;
         }
     }
