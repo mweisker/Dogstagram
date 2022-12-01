@@ -47,8 +47,6 @@ loginButton.addEventListener("click", (e) => {
 
             localStorage.setItem('data', JSON.stringify(users[i].photos))
           
-            alert("this button works");
-
             window.location.href = "feed.html"
             return;
         }
