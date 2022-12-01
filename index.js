@@ -47,7 +47,7 @@ loginButton.addEventListener("click", (e) => {
 
             localStorage.setItem('data', JSON.stringify(users[i].photos))
 
-            window.location.href = "file:///Users/mattweisker/Code/for-fun/feed.html"
+            window.location.href = "https://mweisker.github.io/Dogstagram-feed/"
             return;
         }
     }
